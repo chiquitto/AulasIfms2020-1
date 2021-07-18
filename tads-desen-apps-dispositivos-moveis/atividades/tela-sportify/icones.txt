@@ -1,0 +1,9 @@
+content_copy
+keyboard_arrow_down
+launcher_background
+message
+pause
+settings_backup_restore
+star
+stop
+volume_up

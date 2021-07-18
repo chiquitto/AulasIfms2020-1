@@ -1,0 +1,8 @@
+Branco: #ffffff
+Google: #e73f25
+Facebook: #1063b3
+Fundo: #1cb0f6
+Azul 2: #1f76b2
+
+
+https://play.google.com/store/apps/details?id=com.duolingo

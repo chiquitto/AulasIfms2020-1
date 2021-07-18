@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintDimensionRatio="w,9:16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/hamilton" />
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margem_horizontal"
+            android:layout_marginLeft="@dimen/margem_horizontal"
+            android:layout_marginTop="@dimen/margem_vertical"
+            android:layout_marginEnd="@dimen/margem_horizontal"
+            android:layout_marginRight="@dimen/margem_horizontal"
+            android:text="Você se afastou porque viu que eu era fraca"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/tvData"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/tvData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margem_horizontal"
+            android:layout_marginRight="@dimen/margem_horizontal"
+            android:text="13/03/2020"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvTitulo" />
+
+        <TextView
+            android:id="@+id/tvTexto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margem_horizontal"
+            android:layout_marginLeft="@dimen/margem_horizontal"
+            android:layout_marginTop="@dimen/margem_vertical"
+            android:layout_marginEnd="@dimen/margem_horizontal"
+            android:layout_marginRight="@dimen/margem_horizontal"
+            android:text='Sem circular livremente devido a gravidade do quadro na Itália, habitantes de Nápoles e Roma e outras localidades foram gravados por usuários das redes sociais enquanto cantavam com vizinhos canções como "Bella Ciao" (símbolo da resistência da Itália contra o fascismo durante o período da Segunda Guerra Mundial) e "Abbracciame" (canção romântica famosa na voz da cantora Andrea Sannino). Os encontros estão sendo combinados nas redes sociais em eventos batizados como "flashmobs sonoros" ou "audio flashmobs" — um deles já mobiliza 12 mil usuários do Facebook. Sem circular livremente devido a gravidade do quadro na Itália, habitantes de Nápoles e Roma e outras localidades foram gravados por usuários das redes sociais enquanto cantavam com vizinhos canções como "Bella Ciao" (símbolo da resistência da Itália contra o fascismo durante o período da Segunda Guerra Mundial) e "Abbracciame" (canção romântica famosa na voz da cantora Andrea Sannino). Os encontros estão sendo combinados nas redes sociais em eventos batizados como "flashmobs sonoros" ou "audio flashmobs" — um deles já mobiliza 12 mil usuários do Facebook. Sem circular livremente devido a gravidade do quadro na Itália, habitantes de Nápoles e Roma e outras localidades foram gravados por usuários das redes sociais enquanto cantavam com vizinhos canções como "Bella Ciao" (símbolo da resistência da Itália contra o fascismo durante o período da Segunda Guerra Mundial) e "Abbracciame" (canção romântica famosa na voz da cantora Andrea Sannino). Os encontros estão sendo combinados nas redes sociais em eventos batizados como "flashmobs sonoros" ou "audio flashmobs" — um deles já mobiliza 12 mil usuários do Facebook.'
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitulo" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margem_horizontal"
+            android:layout_marginLeft="@dimen/margem_horizontal"
+            android:layout_marginTop="@dimen/margem_vertical"
+            android:layout_marginEnd="@dimen/margem_horizontal"
+            android:layout_marginRight="@dimen/margem_horizontal"
+            android:layout_marginBottom="@dimen/margem_vertical"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTexto">
+
+            <TextView
+                android:id="@+id/tvFonte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Por: globo.com" />
+
+            <Button
+                android:id="@+id/btnAnterior"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margem_horizontal"
+                android:layout_marginRight="@dimen/margem_horizontal"
+                android:text="Anterior" />
+
+            <Button
+                android:id="@+id/btnProximo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Proximo" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

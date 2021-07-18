@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="template_movie_genre">Familia</string>
+    <string name="rent">Alugue por R$ 29,99</string>
+    <string name="buy">Compre por R$ 129,99</string>
+    <string name="template_number_ratings">242 avaliações</string>
+    <string name="template_movie_title">A Bela e a Fera no Pais das Maravilhas</string>
+    <string name="content_description_add_playlist">Adicionar a lista</string>
+</resources>

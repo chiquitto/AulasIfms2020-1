@@ -1,0 +1,8 @@
+content_copy
+keyboard_arrow_down
+message
+pause
+settings_backup_restore
+star
+stop
+volume_up
